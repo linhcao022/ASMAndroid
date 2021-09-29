@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE4C4"
+    >
+    <EditText
+        android:id="@+id/etTitle"
+        android:hint="Enter Title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etMoney"
+        android:hint="Enter amount of money"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/etTitle"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSavePopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@id/etMoney"
+        android:text="Save" />
+</RelativeLayout>
